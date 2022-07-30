@@ -13,8 +13,18 @@ div{
   margin-top: 30%;
 
 }
-/*margin-left: 10%;*/
+
 /*estilofotodeperfil*/
+@media(max-width:575px){
+  #fotodeperfil{
+    position: absolute;
+    width: 30%;
+    border-radius: 100%;
+    box-shadow:3px 3px 3px grey ;
+    left: 33%;
+    top:630px;
+  }
+}
 @media(min-width:576px){
   #fotodeperfil{
     position: absolute;
@@ -25,4 +35,3 @@ div{
     top:600px;
   }
 }
-
