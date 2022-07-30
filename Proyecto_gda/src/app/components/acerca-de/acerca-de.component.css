@@ -11,9 +11,9 @@ div{
 #nombre{
   font-weight: bold;
   margin-top: 30%;
-  /*margin-left: 10%;*/
-}
 
+}
+/*margin-left: 10%;*/
 /*estilofotodeperfil*/
 @media(min-width:576px){
   #fotodeperfil{
@@ -22,6 +22,7 @@ div{
     border-radius: 100%;
     box-shadow:3px 3px 3px grey ;
     left: 3%;
+    top:600px;
   }
 }
 
