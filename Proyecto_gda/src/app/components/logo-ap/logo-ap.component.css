@@ -15,4 +15,10 @@ img{
 .btn{
   border-width: medium;
 }
-
+/*----- para la vista del celular-----*/
+.container{
+  flex-direction: column;
+}
+.redes{
+  display: flex;
+}
